@@ -39,6 +39,25 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+/* about icon hover                */
+
+
+.hover i:hover{
+  
+  color:#de0bf1;
+}
+
+#hover1:hover,#hover2:hover,#hover3:hover,#hover4:hover,#hover5:hover{
+  border: 1px solid rgb(128, 128, 128);
+  background-color:rgb(145, 145, 145);
+  box-shadow:0rem 0rem 0.3rem 0rem white;
+  color:#fff;
+}
+
+  
+ 
+
 /* degree------------                */
 #deg{
  
