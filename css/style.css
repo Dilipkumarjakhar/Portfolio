@@ -95,7 +95,9 @@ background: #070707;
   border: 1px solid rgb(82, 81, 81);
   background-color: rgb(59, 59, 59);
   color:#fff;
+  margin-left: 0.1%;
   border-radius: 11px;
+  
 }
 .ls:hover{
   height: 40px;
