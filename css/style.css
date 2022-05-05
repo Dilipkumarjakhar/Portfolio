@@ -75,24 +75,49 @@ background: #070707;
  
 }
  
- .html,.css,.js,.DB,.ejs{
+ .html,.css,.js,.DB,.ejs,.react,.express{
   height: 40px;
   position: relative;
-  padding: -10px -10px;
-  width: 62px;
- 
+  padding: -1px -1px;
+  width: 67px;
+  margin-top:1%;
   border: 1px solid rgb(82, 81, 81);
   background-color: rgb(59, 59, 59);
   color:#fff;
   border-radius: 11px;
 } 
-.html:hover,.css:hover,.js:hover,.DB:hover,.ejs:hover{
+.ls{
+  height: 40px;
+  position: relative;
+  padding: -1px -1px;
+  width: 92px;
+  margin-top:1%;
+  border: 1px solid rgb(82, 81, 81);
+  background-color: rgb(59, 59, 59);
+  color:#fff;
+  border-radius: 11px;
+}
+.ls:hover{
+  height: 40px;
+  border-radius: 10px;
+  position:initial;
+  width: 93px;
+  transition: 0.5s;
+  padding: 2px 1px;
+  border: 1px solid #000;
+  background-color: rgb(10, 10, 10);
+  color:rgb(255, 251, 251);
+  box-shadow: 0rem 0rem 0.1rem 0.1rem rgb(129, 129, 129);
+}
+.html:hover,.css:hover,
+.js:hover,.DB:hover,.ejs:hover,
+.react:hover,.express:hover{
   height: 40px;
   border-radius: 10px;
   position:initial;
   width: 65px;
   transition: 0.5s;
-  padding: 0px 1px;
+  padding: 2px 1px;
   border: 1px solid #000;
   background-color: rgb(10, 10, 10);
   color:rgb(255, 251, 251);
@@ -215,9 +240,9 @@ background: #070707;
 /* project box-------------------------------*/
 #prb{
   height:800px;
-  width:auto;
-  border: 1px solid rgb(73, 73, 73);
-  margin-left: 10px;
+  border: 0.1px solid rgb(73, 73, 73);
+  margin-left: -10px;
+  justify-content:space-between;
 }
 /* #prb img a{
   border: 1px solid rgb(248, 242, 242);
